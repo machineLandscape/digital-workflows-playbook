@@ -56,7 +56,8 @@ You do not need to read it in order.
 - [Illustrator for Plans & Sections](04_representation/guide_adobe_02_illustrator_plans_sections.md)
 - [Photoshop for Plans & Sections](04_representation/guide_adobe_01_photoshop_plans_sections.md)
 - [InDesign for Boards & Pin-Ups](04_representation/guide_ind_01_indesign_boards.md)
-
+- [CAD → Rhino: Bring Drafted Linework into a Model](05_translation/guide_xlate_05_cad_to_rhino.md)
+  
 ---
 
 This playbook grows over time.  

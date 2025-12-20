@@ -1,9 +1,13 @@
 site_name: Digital Workflows Playbook
+site_url: https://machinelandscape.github.io/digital-workflows-playbook/
 site_description: Studio-first, step-by-step digital workflow guides for landscape architecture students
 site_author: machineLandscape
 
 docs_dir: docs
 site_dir: site
+
+plugins:
+  - search
 
 theme:
   name: mkdocs

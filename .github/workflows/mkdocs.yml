@@ -1,40 +1,73 @@
-name: Deploy MkDocs site to GitHub Pages
+site_name: Digital Workflows Playbook
+site_description: Studio-first, step-by-step digital workflow guides for landscape architecture
+site_author: (Instructor)
 
-on:
-  push:
-    branches:
-      - main
+docs_dir: docs
+site_dir: site
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.instant
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
 
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+nav:
+  - Home: index.md
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
+  - Getting Started:
+      - Set Up Project Folders & File Naming: 00_getting_started/guide_00_01_folders.md
+      - How to Think About Digital Workflows in Studio: 00_getting_started/guide_00_02_workflows.md
+      - Troubleshoot When Something Goes Wrong: 00_getting_started/guide_00_03_troubleshoot.md
 
-      - name: Install MkDocs
-        run: |
-          pip install mkdocs
+  - Mapping (GIS):
+      - Find and Evaluate Spatial Data for a Site (US): 01_mapping/guide_gis_01_find_data.md
+      - Create a GIS Context Map: 01_mapping/guide_gis_02_context_map.md
+      - Simplify and Filter GIS Data for Design Use: 01_mapping/guide_gis_03_simplify_filter.md
+      - Export GIS Data for CAD and Modeling: 01_mapping/guide_gis_04_export.md
 
-      - name: Build site
-        run: |
-          mkdocs build
+  - Modeling (Rhino):
+      - Build a Terrain Surface from Contours or DEM: 02_modeling/guide_rhino_01_terrain.md
+      - Clean and Verify a Terrain Model: 02_modeling/guide_rhino_02_verify.md
+      - Cut Sections and Profiles from a Model: 02_modeling/guide_rhino_03_sections.md
+      - Export Model Linework for Drafting: 02_modeling/guide_rhino_04_export.md
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
+  - Drafting (CAD):
+      - Set Up a Clean CAD Drawing Using a Template: 03_drafting/guide_cad_01_template.md
+      - Draft a GIS-Based Context Plan: 03_drafting/guide_cad_02_gis_context.md
+      - Organize Layers for a Site Plan or Section: 03_drafting/guide_cad_03_layers.md
+      - Apply Scale, Annotation, and Labels Correctly: 03_drafting/guide_cad_04_annotation.md
+      - Use Layouts and Viewports Effectively: 03_drafting/guide_cad_05_layouts.md
+      - Export a Clean, Scaled PDF: 03_drafting/guide_cad_06_export_pdf.md
 
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
+  - Representation (Adobe):
+      - Illustrator:
+          - Decide When to Use Illustrator: 04_representation/illustrator/guide_ai_01_when_to_use.md
+          - Bring CAD Linework into Illustrator: 04_representation/illustrator/guide_ai_02_import_cad.md
+          - Create Graphic Hierarchy: 04_representation/illustrator/guide_ai_03_hierarchy.md
+      - Photoshop:
+          - Decide When to Use Photoshop: 04_representation/photoshop/guide_ps_01_when_to_use.md
+          - Apply Tonal Ground: 04_representation/photoshop/guide_ps_02_tone.md
+      - InDesign:
+          - Decide When InDesign Is the Right Tool: 04_representation/indesign/guide_id_01_when_to_use.md
 
+  - Translation Between Tools:
+      - GIS → CAD: What Transfers and What Doesn’t: 05_translation/guide_xlate_01_gis_to_cad.md
+      - Rhino → CAD: Maintaining Scale and Alignment: 05_translation/guide_xlate_02_rhino_to_cad.md
+      - CAD → Illustrator: What to Bring and What to Leave: 05_translation/guide_xlate_03_cad_to_ai.md
+
+  - Output & Recovery:
+      - Prepare Drawings for Review: 06_output/guide_out_01_pinup.md
+      - Check Drawings for Errors: 06_output/guide_out_02_qc.md
+      - Recover from Broken Files: 06_output/guide_out_03_recovery.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - attr_list
+  - footnotes

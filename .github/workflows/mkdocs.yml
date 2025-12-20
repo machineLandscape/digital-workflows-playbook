@@ -59,6 +59,7 @@ nav:
       - GIS → CAD: What Transfers and What Doesn’t: 05_translation/guide_xlate_01_gis_to_cad.md
       - Rhino → CAD: Maintaining Scale and Alignment: 05_translation/guide_xlate_02_rhino_to_cad.md
       - CAD → Illustrator: What to Bring and What to Leave: 05_translation/guide_xlate_03_cad_to_ai.md
+      - CAD → Rhino: Bring Drafted Linework into a Model: 05_translation/guide_xlate_05_cad_to_rhino.md
 
   - Output & Recovery:
       - Prepare Drawings for Review: 06_output/guide_out_01_pinup.md

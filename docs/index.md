@@ -61,3 +61,17 @@ You do not need to read it in order.
 
 This playbook grows over time.  
 Use what you need, when you need it.
+
+---
+
+### License
+
+This playbook is licensed under a  
+**Creative Commons Attribution–NonCommercial 4.0 International License (CC BY-NC 4.0)**.
+
+You are free to use and adapt it for teaching and learning purposes with attribution.
+
+Suggested attribution:  
+“Digital Workflows Playbook, v1.0. Creator:Zach Cross”
+
+

@@ -1,0 +1,23 @@
+site_name: Digital Workflows Playbook
+site_description: Studio-first, step-by-step digital workflow guides for landscape architecture students
+site_author: machineLandscape
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: mkdocs
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Set Up Project Folders & File Naming: 00_getting_started/guide_00_01_folders.md
+      - How to Think About Digital Workflows in Studio: 00_getting_started/guide_00_02_workflows.md
+      - Troubleshoot When Something Goes Wrong: 00_getting_started/guide_00_03_troubleshoot.md
+  - Mapping (GIS):
+      - Find and Evaluate Spatial Data for a Site (US): 01_mapping/guide_gis_01_find_data.md
+      - Create a GIS Context Map: 01_mapping/guide_gis_02_context_map.md
+
+markdown_extensions:
+  - toc:
+      permalink: true

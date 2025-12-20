@@ -59,6 +59,7 @@ You do not need to read it in order.
 - [Illustrator for Plans & Sections](04_representation/guide_adobe_02_illustrator_plans_sections.md)
 - [Photoshop for Plans & Sections](04_representation/guide_adobe_01_photoshop_plans_sections.md)
 - [InDesign for Boards & Pin-Ups](04_representation/guide_ind_01_indesign_boards.md)
+- [Rendering Axons & Sections in Photoshop](04_representation/guide_adobe_03_rendering_axons_sections.md)
 
 ---
 

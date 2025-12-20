@@ -50,7 +50,8 @@ You do not need to read it in order.
 - [CAD → Illustrator: Linework for Graphics](05_translation/guide_xlate_03_cad_to_illustrator.md)
 - [CAD → Photoshop: Raster Effects](05_translation/guide_xlate_04_cad_to_photoshop.md)
 - [CAD → Rhino: Bring Drafted Linework into a Model](05_translation/guide_xlate_05_cad_to_rhino.md)
-  
+- [Rhino ↔ Illustrator: Diagram Workflows](05_translation/guide_xlate_06_rhino_illustrator_diagrams.md)
+
 ---
 
 ## Representation (Adobe)

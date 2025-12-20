@@ -75,6 +75,6 @@ This playbook is licensed under a
 You are free to use and adapt it for teaching and learning purposes with attribution.
 
 Suggested attribution:  
-“Digital Workflows Playbook, v1.0. Creator:Zach Cross”
+“Digital Workflows Playbook, v1.0. Author: Zach Cross”
 
 

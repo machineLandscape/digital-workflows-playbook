@@ -1,27 +1,85 @@
 site_name: Digital Workflows Playbook
-site_url: https://machinelandscape.github.io/digital-workflows-playbook/
-site_description: Studio-first, step-by-step digital workflow guides for landscape architecture students
-site_author: machineLandscape
+site_description: Studio-first, step-by-step digital workflow guides for landscape architecture
+site_author: (Instructor)
 
 docs_dir: docs
 site_dir: site
 
-plugins:
-  - search
-
 theme:
   name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.instant
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
 
 nav:
   - Home: index.md
+
   - Getting Started:
       - Set Up Project Folders & File Naming: 00_getting_started/guide_00_01_folders.md
       - How to Think About Digital Workflows in Studio: 00_getting_started/guide_00_02_workflows.md
       - Troubleshoot When Something Goes Wrong: 00_getting_started/guide_00_03_troubleshoot.md
+
   - Mapping (GIS):
       - Find and Evaluate Spatial Data for a Site (US): 01_mapping/guide_gis_01_find_data.md
       - Create a GIS Context Map: 01_mapping/guide_gis_02_context_map.md
+      - Simplify and Filter GIS Data for Design Use: 01_mapping/guide_gis_03_simplify_filter.md
+      - Export GIS Data for CAD and Modeling: 01_mapping/guide_gis_04_export.md
+
+  - Modeling (Rhino):
+      - Build a Terrain Surface from Contours or DEM: 02_modeling/guide_rhino_01_terrain.md
+      - Clean and Verify a Terrain Model: 02_modeling/guide_rhino_02_verify.md
+      - Cut Sections and Profiles from a Model: 02_modeling/guide_rhino_03_sections.md
+      - Export Model Linework for Drafting: 02_modeling/guide_rhino_04_export.md
+
+  - Drafting (CAD):
+      - Set Up a Clean CAD Drawing Using a Template: 03_drafting/guide_cad_01_template.md
+      - Draft a GIS-Based Context Plan: 03_drafting/guide_cad_02_gis_context.md
+      - Organize Layers for a Site Plan or Section: 03_drafting/guide_cad_03_layers.md
+      - Apply Scale, Annotation, and Labels Correctly: 03_drafting/guide_cad_04_annotation.md
+      - Use Layouts and Viewports Effectively: 03_drafting/guide_cad_05_layouts.md
+      - Export a Clean, Scaled PDF: 03_drafting/guide_cad_06_export_pdf.md
+
+  - Representation (Adobe):
+      - Illustrator:
+          - Decide When to Use Illustrator (and When Not To): 04_representation/illustrator/guide_ai_01_when_to_use.md
+          - Bring CAD Linework into Illustrator Cleanly: 04_representation/illustrator/guide_ai_02_import_cad.md
+          - Create Graphic Hierarchy with Lineweight & Color: 04_representation/illustrator/guide_ai_03_hierarchy.md
+          - Build Clear Diagrams from Plans or Sections: 04_representation/illustrator/guide_ai_04_diagrams.md
+          - Export Illustrator Graphics for Print and Screen: 04_representation/illustrator/guide_ai_05_export.md
+      - Photoshop:
+          - Decide When to Use Photoshop (and When Not To): 04_representation/photoshop/guide_ps_01_when_to_use.md
+          - Apply Tonal Ground and Depth to Drawings: 04_representation/photoshop/guide_ps_02_tone.md
+          - Overlay Imagery Without Losing Linework: 04_representation/photoshop/guide_ps_03_overlay.md
+          - Control Resolution, Scale, and File Size: 04_representation/photoshop/guide_ps_04_resolution.md
+          - Export Raster-Based Drawings Correctly: 04_representation/photoshop/guide_ps_05_export.md
+      - InDesign:
+          - Decide When InDesign Is the Right Tool: 04_representation/indesign/guide_id_01_when_to_use.md
+          - Set Up a Multi-Page Document (Boards or Booklet): 04_representation/indesign/guide_id_02_setup.md
+          - Place and Manage Linked Drawings (AI/PSD/PDF): 04_representation/indesign/guide_id_03_links.md
+          - Control Type, Grids, and Alignment: 04_representation/indesign/guide_id_04_typography.md
+          - Export for Print, PDF Review, and Submission: 04_representation/indesign/guide_id_05_export.md
+
+  - Translation Between Tools:
+      - GIS → CAD: What Transfers and What Doesn’t: 05_translation/guide_xlate_01_gis_to_cad.md
+      - Rhino → CAD: Maintaining Scale and Alignment: 05_translation/guide_xlate_02_rhino_to_cad.md
+      - CAD → Illustrator: What to Bring and What to Leave: 05_translation/guide_xlate_03_cad_to_ai.md
+      - CAD → Photoshop: Preparing Linework for Raster Use: 05_translation/guide_xlate_04_cad_to_ps.md
+      - Illustrator/Photoshop → InDesign: Linking vs Embedding: 05_translation/guide_xlate_05_adobe_to_id.md
+      - Updating Drawings Without Breaking Layouts: 05_translation/guide_xlate_06_updates.md
+
+  - Output & Recovery:
+      - Prepare Drawings for Pin-Up or Digital Review: 06_output/guide_out_01_pinup.md
+      - Check Drawings for Scale, Legibility, and Errors: 06_output/guide_out_02_qc.md
+      - Recover from Broken Files, Missing Links, or Bad Exports: 06_output/guide_out_03_recovery.md
 
 markdown_extensions:
+  - admonition
   - toc:
       permalink: true
+  - attr_list
+  - footnotes

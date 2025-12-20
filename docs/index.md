@@ -10,18 +10,16 @@
 Use this playbook when you are stuck in studio.  
 You do not need to read it in order.
 
-**Start here:**  
-- [Workflow Map](workflow_map.md) (big-picture overview)
-- [Set Up Project Folders & File Naming](00_getting_started/guide_00_01_folders.md)
+**Start here:**
 - [How to Use This Playbook in Studio](00_getting_started/guide_00_04_use_playbook.md)
-
+- [Workflow Map](workflow_map.md) (big-picture overview)
+  
 ---
 
 ## Getting Started
 - [Set Up Project Folders & File Naming](00_getting_started/guide_00_01_folders.md)
 - [How to Think About Digital Workflows in Studio](00_getting_started/guide_00_02_workflows.md)
 - [Troubleshoot When Something Goes Wrong](00_getting_started/guide_00_03_troubleshoot.md)
-- [How to Use This Playbook in Studio](00_getting_started/guide_00_04_use_playbook.md)
 
 ---
 

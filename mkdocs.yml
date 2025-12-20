@@ -39,6 +39,7 @@ nav:
       - "Rhino → CAD: Clean Geometry for Drafting": 05_translation/guide_xlate_02_rhino_to_cad.md
       - "CAD → Illustrator: Linework for Graphics": 05_translation/guide_xlate_03_cad_to_illustrator.md
       - "CAD → Photoshop: Raster Effects": 05_translation/guide_xlate_04_cad_to_photoshop.md
+      - "CAD → Rhino: Bring Drafted Linework into a Model": 05_translation/guide_xlate_05_cad_to_rhino.md
 
   - Representation (Adobe):
       - "Illustrator for Plans & Sections": 04_representation/guide_adobe_02_illustrator_plans_sections.md

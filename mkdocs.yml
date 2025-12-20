@@ -18,6 +18,7 @@ nav:
       - "How to Think About Digital Workflows in Studio": 00_getting_started/guide_00_02_workflows.md
       - "Troubleshoot When Something Goes Wrong": 00_getting_started/guide_00_03_troubleshoot.md
       - "How to Use This Playbook in Studio": 00_getting_started/guide_00_04_use_playbook.md
+      - "What This Replaces in Class (Instructor Note)": 00_getting_started/guide_00_05_instructor_note.md
 
   - Mapping (GIS):
       - "Find and Evaluate Spatial Data for a Site (US)": 01_mapping/guide_gis_01_find_data.md

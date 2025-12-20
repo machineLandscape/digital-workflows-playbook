@@ -20,6 +20,7 @@ You do not need to read it in order.
 - [Set Up Project Folders & File Naming](00_getting_started/guide_00_01_folders.md)
 - [How to Think About Digital Workflows in Studio](00_getting_started/guide_00_02_workflows.md)
 - [Troubleshoot When Something Goes Wrong](00_getting_started/guide_00_03_troubleshoot.md)
+- [What This Replaces in Class (Instructor Note)](00_getting_started/guide_00_05_instructor_note.md)
 
 ---
 

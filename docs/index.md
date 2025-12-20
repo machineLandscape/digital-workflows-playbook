@@ -2,6 +2,11 @@
 
 **Mapping → Modeling → Drafting → Representation**
 
+> **Version 1.0**  
+> Stable reference for studio use.  
+> Last updated: Spring 2026.
+
+
 Use this playbook when you are stuck in studio.  
 You do not need to read it in order.
 

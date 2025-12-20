@@ -51,6 +51,7 @@ You do not need to read it in order.
 - [CAD → Photoshop: Raster Effects](05_translation/guide_xlate_04_cad_to_photoshop.md)
 - [CAD → Rhino: Bring Drafted Linework into a Model](05_translation/guide_xlate_05_cad_to_rhino.md)
 - [Rhino ↔ Illustrator: Diagram Workflows](05_translation/guide_xlate_06_rhino_illustrator_diagrams.md)
+- [Rhino → Photoshop: Axon + Section Atmospheres](05_translation/guide_xlate_07_rhino_to_photoshop_atmospheres.md)
 
 ---
 

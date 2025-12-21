@@ -104,3 +104,8 @@ Always validate by:
 - [Layer Properties Manager (Linework Control)](cad_layer_properties_manager.md)
 - [Plot Style Tables (CTB/STB) in Detail](cad_plot_style_tables.md)
 - [Page Setup Manager (Step-by-Step)](cad_page_setup_manager.md)
+
+- ## Linked video tutorials (optional)
+
+For visual reinforcement of the steps above, see the  
+[Curated Video Tutorial Index](../video_index.md).

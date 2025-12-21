@@ -126,3 +126,8 @@ You should be able to:
 
 Next:
 - [Page Setup Manager (Step-by-Step)](cad_page_setup_manager.md)
+
+- ## Linked video tutorials (optional)
+
+For visual reinforcement of the steps above, see the  
+[Curated Video Tutorial Index](../video_index.md).

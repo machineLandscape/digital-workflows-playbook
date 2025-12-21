@@ -97,26 +97,4 @@ Always verify:
 
 ---
 
-## How to reference this index from guides
 
-Add the following block to technique guides where appropriate:
-
-```md
-## Linked video tutorials (optional)
-
-For visual reinforcement of the steps above, see the  
-[Curated Video Tutorial Index](../video_index.md).
-```
-
-Adjust the relative path (`../`) based on the guide location.
-
----
-
-## Maintenance note (for instructors)
-
-Review links once per semester:
-- confirm videos still load
-- ensure they still reflect relevant workflows
-- remove any that promote bad habits
-
-Replace links deliberately; do not let this list grow unchecked.

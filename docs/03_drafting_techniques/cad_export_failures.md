@@ -130,3 +130,8 @@ A correct export produces:
 - repeatability across layouts
 
 If any item fails, diagnose upstream before proceeding.
+
+## Linked video tutorials (optional)
+
+For visual reinforcement of the steps above, see the  
+[Curated Video Tutorial Index](../video_index.md).

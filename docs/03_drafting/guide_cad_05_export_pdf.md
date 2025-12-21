@@ -82,6 +82,9 @@ Fix issues in CAD, not in Adobe.
 ## If exports look wrong (step-by-step technique help)
 
 - [Fix Broken PDF Exports](../03_drafting_techniques/cad_export_failures.md)
+- [Page Setup Manager (Step-by-Step)](../03_drafting_techniques/cad_page_setup_manager.md)
+- [Plot Style Tables (CTB / STB) in Detail](../03_drafting_techniques/cad_plot_style_tables.md)
+
 
 ---
 

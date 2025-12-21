@@ -5,6 +5,12 @@
 
 ---
 
+## Prerequisite
+
+- [Create a Terrain Surface from Contours](rhino_surface_from_contours.md)
+
+---
+
 ## 1. When to use this
 
 Use this guide when:
@@ -84,3 +90,5 @@ You should have:
 - Confidence exporting
 
 If not, return upstream.
+
+

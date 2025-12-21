@@ -53,6 +53,12 @@ Common approaches:
 
 Choose the simplest method that works.
 
+### If you need step-by-step help
+- Create a terrain surface from contours
+- Patch vs Drape (which to use)
+- Fix spiky or broken terrain surfaces
+- Prepare terrain for sectioning
+
 ---
 
 ## 6. Check the model

@@ -202,3 +202,10 @@ You should now have:
 - Clean test sections
 
 If not, redo the surface. That is faster.
+
+## Related techniques
+
+- [Fix Spiky or Broken Terrain Surfaces](rhino_fix_spiky_surfaces.md)
+- [Patch vs Drape (Decision Guide)](rhino_patch_vs_drape.md)
+- [Prepare Terrain Surfaces for Sectioning](rhino_prepare_for_sectioning.md)
+

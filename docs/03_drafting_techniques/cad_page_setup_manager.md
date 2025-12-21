@@ -123,3 +123,8 @@ A correct page setup allows you to:
 
 Next:
 - [Fix Broken PDF Exports](cad_export_failures.md)
+
+- ## Linked video tutorials (optional)
+
+For visual reinforcement of the steps above, see the  
+[Curated Video Tutorial Index](../video_index.md).

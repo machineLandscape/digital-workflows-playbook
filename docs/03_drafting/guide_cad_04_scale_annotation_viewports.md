@@ -23,6 +23,12 @@ Use this guide:
 
 ---
 
+### If you’re stuck
+- Viewports & Scale That Actually Work
+- Lineweights & Graphic Hierarchy
+
+---
+
 ## 3. Core idea (read this)
 
 **Model space is real size. Paper space is representation.**

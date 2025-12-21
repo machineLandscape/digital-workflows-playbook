@@ -133,3 +133,8 @@ Before moving to plot styles:
 
 Next:
 - [Plot Style Tables (CTB/STB) in Detail](cad_plot_style_tables.md)
+- 
+## Linked video tutorials (optional)
+
+For visual reinforcement of the steps above, see the  
+[Curated Video Tutorial Index](../video_index.md).

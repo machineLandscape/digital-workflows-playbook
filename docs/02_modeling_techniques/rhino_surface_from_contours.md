@@ -209,3 +209,8 @@ If not, redo the surface. That is faster.
 - [Patch vs Drape (Decision Guide)](rhino_patch_vs_drape.md)
 - [Prepare Terrain Surfaces for Sectioning](rhino_prepare_for_sectioning.md)
 
+- ## Linked video tutorials (optional)
+
+For visual reinforcement of the steps above, see the  
+[Curated Video Tutorial Index](../video_index.md).
+

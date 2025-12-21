@@ -122,3 +122,8 @@ If not, repeat upstream fixes.
 - [Create a Terrain Surface from Contours](rhino_surface_from_contours.md)
 - [Patch vs Drape (Decision Guide)](rhino_patch_vs_drape.md)
 
+## Linked video tutorials (optional)
+
+For visual reinforcement of the steps above, see the  
+[Curated Video Tutorial Index](../video_index.md).
+

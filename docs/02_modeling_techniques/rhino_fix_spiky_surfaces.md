@@ -116,3 +116,9 @@ You should have:
 - Clean section cuts
 
 If not, repeat upstream fixes.
+
+## Related techniques
+
+- [Create a Terrain Surface from Contours](rhino_surface_from_contours.md)
+- [Patch vs Drape (Decision Guide)](rhino_patch_vs_drape.md)
+

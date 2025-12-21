@@ -147,6 +147,9 @@ CTB assumes your **layer colors** encode hierarchy.
 
 If your layers are random colors, your CTB can't produce predictable drawings.
 
-Next:
+## Related techniques
+
 - [Layer Properties Manager (Linework Control)](cad_layer_properties_manager.md)
+- [Lineweights & Graphic Hierarchy](cad_lineweights_and_hierarchy.md)
 - [Page Setup Manager (Step-by-Step)](cad_page_setup_manager.md)
+

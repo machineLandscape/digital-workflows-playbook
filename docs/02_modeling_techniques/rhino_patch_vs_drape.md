@@ -73,3 +73,8 @@ After either method:
 - Cut a test section
 
 If it fails, stop and reassess input curves.
+
+## Linked video tutorials (optional)
+
+For visual reinforcement of the steps above, see the  
+[Curated Video Tutorial Index](../video_index.md).

@@ -32,3 +32,9 @@ Fewer lineweights = clearer drawings.
 ## Common mistake
 
 Relying on color instead of hierarchy.
+
+## Related step-by-step techniques
+
+- [Layer Properties Manager (Linework Control)](cad_layer_properties_manager.md)
+- [Page Setup Manager (Step-by-Step)](cad_page_setup_manager.md)
+- [Plot Style Tables (CTB / STB) in Detail](cad_plot_style_tables.md)

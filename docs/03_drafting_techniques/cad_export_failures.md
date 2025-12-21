@@ -100,8 +100,10 @@ Related:
 - Plot with lineweights ON
 
 Related:
+- [Viewports & Scale That Actually Work](cad_viewports_and_scale.md)
+- [Page Setup Manager](cad_page_setup_manager.md)
 - [Plot Style Tables](cad_plot_style_tables.md)
-- [Lineweights & Hierarchy](cad_lineweights_and_hierarchy.md)
+- [Lineweights & Graphic Hierarchy](cad_lineweights_and_hierarchy.md)
 
 ---
 

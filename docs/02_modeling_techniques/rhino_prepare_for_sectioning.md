@@ -91,4 +91,9 @@ You should have:
 
 If not, return upstream.
 
+## Linked video tutorials (optional)
+
+For visual reinforcement of the steps above, see the  
+[Curated Video Tutorial Index](../video_index.md).
+
 

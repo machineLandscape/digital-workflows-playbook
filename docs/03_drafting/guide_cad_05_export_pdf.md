@@ -68,11 +68,6 @@ Fix issues in CAD, not in Adobe.
 
 ---
 
-### If exports look wrong
-- Fix Broken PDF Exports
-
----
-
 ## 7. Common failures & fixes
 
 **Problem:** Scale is wrong  
@@ -83,6 +78,10 @@ Fix issues in CAD, not in Adobe.
 
 **Problem:** Missing elements  
 **Fix:** Layer visibility problem
+
+## If exports look wrong (step-by-step technique help)
+
+- [Fix Broken PDF Exports](../03_drafting_techniques/cad_export_failures.md)
 
 ---
 

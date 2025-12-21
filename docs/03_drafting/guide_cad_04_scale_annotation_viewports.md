@@ -81,8 +81,9 @@ You should be able to:
 
 ## If you're stuck (step-by-step technique help)
 
-- [Layer Properties Manager (Linework Control)](../03_drafting_techniques/cad_layer_properties_manager.md)
 - [Viewports & Scale That Actually Work](../03_drafting_techniques/cad_viewports_and_scale.md)
+- [Layer Properties Manager (Linework Control)](../03_drafting_techniques/cad_layer_properties_manager.md)
+- [Lineweights & Graphic Hierarchy](../03_drafting_techniques/cad_lineweights_and_hierarchy.md)
 - [Plot Style Tables (CTB / STB) in Detail](../03_drafting_techniques/cad_plot_style_tables.md)
 
 

@@ -153,3 +153,7 @@ If your layers are random colors, your CTB can't produce predictable drawings.
 - [Lineweights & Graphic Hierarchy](cad_lineweights_and_hierarchy.md)
 - [Page Setup Manager (Step-by-Step)](cad_page_setup_manager.md)
 
+## Linked video tutorials (optional)
+
+For visual reinforcement of the steps above, see the  
+[Curated Video Tutorial Index](../video_index.md).

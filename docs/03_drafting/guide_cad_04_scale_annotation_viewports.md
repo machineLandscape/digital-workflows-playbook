@@ -23,12 +23,6 @@ Use this guide:
 
 ---
 
-### If you’re stuck
-- Viewports & Scale That Actually Work
-- Lineweights & Graphic Hierarchy
-
----
-
 ## 3. Core idea (read this)
 
 **Model space is real size. Paper space is representation.**
@@ -82,6 +76,13 @@ You should be able to:
 - Plot at correct scale
 - Read drawings clearly
 - Reuse layouts
+
+---
+
+## If you're stuck (step-by-step technique help)
+
+- [Viewports & Scale That Actually Work](../03_drafting_techniques/cad_viewports_and_scale.md)
+- [Lineweights & Graphic Hierarchy](../03_drafting_techniques/cad_lineweights_and_hierarchy.md)
 
 ---
 

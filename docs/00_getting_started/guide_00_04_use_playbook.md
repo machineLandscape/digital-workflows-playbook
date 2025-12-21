@@ -24,6 +24,23 @@ This mirrors professional practice.
 
 ---
 
+## Workflow Guides vs Technique Guides
+
+Workflow guides explain:
+- What you are doing
+- When to do it
+- What quality looks like
+
+Technique guides explain:
+- How to execute a specific task
+- Step-by-step commands
+- Tool-specific procedures
+
+Use workflow guides first.
+Use technique guides only when stuck.
+
+---
+
 ## 3. Common entry points
 
 - No data → GIS_01

@@ -1,124 +1,152 @@
 # CAD Technique — Plot Style Tables (CTB / STB) in Detail
 
-**Use when:** lineweights are wrong, colors plot incorrectly, or PDFs look faint.  
-**Applies to:** AutoCAD-based workflows
+**Version:** v1.1  
+**Use when:** lineweights are wrong, drawings plot faint, or PDFs plot in unexpected colors.  
+**Applies to:** AutoCAD-based workflows  
+**Last updated:** 2025-12-21
 
 ---
 
-## What this technique covers
+## 1. What this technique does
 
-This guide explains **plot style tables** in detail:
-- What CTB and STB are
-- How they control lineweight and color
-- How to choose and edit them safely
+This guide teaches how to:
+- understand CTB vs STB
+- choose the correct plot style table
+- edit CTB safely
+- debug lineweight issues
 
-This is the heart of CAD plotting.
+Plot styles are the **translation layer** between CAD colors and printed lineweights.
 
 ---
 
-## How Plot Styles connect to layers (critical)
-
-Plot style tables do **not** act directly on objects.
-
-They act on:
-- **Layer color assignments**
-- **Object color overrides**
+## 2. Core idea (read this)
 
 In a CTB workflow:
-1. Layer Properties Manager assigns a color to a layer
-2. The CTB file converts that color into a lineweight
-3. The PDF reflects the CTB, not the on-screen color
 
-If layers are not assigned intentionally, plot styles cannot work.
+**Layer color (Layer Properties Manager) → CTB mapping → printed lineweight**
 
----
-
-## CTB vs STB (understand this first)
-
-### CTB — Color-Based Plot Styles
-- Lineweight tied to color
-- Most common in architecture and landscape
-- Simple and predictable
-
-### STB — Named Plot Styles
-- Lineweight tied to style names
-- More flexible
-- Less common in school settings
-
-**Rule of thumb:**  
-If you didn’t choose STB intentionally, you are using CTB.
+CTB doesn't act on objects magically. It interprets **colors** (layer or object).
 
 ---
 
-## How CTB works
+## 3. CTB vs STB (decide what you're using)
 
-In CTB:
-- Each color = specific lineweight
-- Colors may plot black or gray
-- Screen color ≠ printed weight
+### CTB (Color-dependent)
+- Most common for landscape/architecture
+- Lineweight is tied to color number
+- You draft using a controlled color system
 
-Example:
-- Color 8 → 0.50 mm
-- Color 9 → 0.35 mm
+### STB (Named styles)
+- Lineweight tied to style names (e.g., "Heavy", "Light")
+- Requires a different discipline and file configuration
 
-This is why color discipline matters.
-
----
-
-## Step-by-step: Editing a CTB
-
-1. Open **Plot Style Manager**
-2. Open the `.ctb` file you are using
-3. Select a color
-4. Set:
-   - Lineweight
-   - Screening (100% recommended)
-   - Plot color (usually black)
-
-Save changes deliberately.
+**Rule:** If you did not intentionally set up STB, you are almost certainly using CTB.
 
 ---
 
-## Best-practice lineweight ranges
+## 4. Find out what your drawing uses
 
-Typical landscape ranges:
-- Cut lines: 0.50–0.70 mm
-- Primary edges: 0.30–0.40 mm
-- Secondary context: 0.18–0.25 mm
-- Background: 0.13 mm
+In AutoCAD:
+- Command: `PLOT`
+- Look for the field: **Plot style table (pen assignments)**
 
-More variation ≠ better.
+If you see a `.ctb` file → CTB workflow
+If you see a `.stb` file → STB workflow
 
----
-
-## Common failures
-
-**Problem:** Everything plots the same weight  
-**Cause:** All objects on same color
-
-**Problem:** Lines look faint  
-**Cause:** Screening < 100%
-
-**Problem:** Colors plot in color  
-**Cause:** Plot color not set to black
+Also check:
+- Command: `STYLESMANAGER` (opens Plot Styles folder)
 
 ---
 
-## How to work safely
+## 5. How CTB actually works
 
-- Never edit a shared CTB without copying it
-- Name CTBs clearly
-- Keep one “standard” CTB per studio
+A CTB file contains 255 color rows (1–255). Each row can define:
+- lineweight (mm/in)
+- screening (percent)
+- dithering
+- plot color (often set to black)
 
-Plot styles are standards, not experiments.
+**Best practice:** Keep screening at **100%** for clarity unless intentionally gray.
 
 ---
 
-## Checkpoint
+## 6. Safe CTB editing workflow (do not skip)
 
-You should:
-- Know which CTB you’re using
-- Understand what each color does
-- Trust your plotted output
+1. Locate the CTB you are using (from PLOT dialog)
+2. **Copy it** and rename the copy for your class/studio
+   - e.g., `Studio_Standard.ctb`
+3. Edit the copy only
 
-If not, stop and fix the CTB.
+Never edit the system default CTB unless you control all machines.
+
+---
+
+## 7. Edit a CTB (step-by-step)
+
+1. Run: `STYLESMANAGER`
+2. Double-click your `.ctb`
+3. In the editor:
+   - Select a color row (e.g., Color 9)
+   - Set **Lineweight**
+   - Set **Screening = 100**
+   - Set **Plot color = Black** (common standard)
+4. Save
+
+**Checkpoint:** After saving, re-open PLOT dialog and ensure the same CTB is selected.
+
+---
+
+## 8. Recommended landscape lineweight bands (starting point)
+
+These are typical, not universal:
+
+- Heavy / cut: **0.50–0.70 mm**
+- Primary: **0.30–0.40 mm**
+- Secondary: **0.18–0.25 mm**
+- Background: **0.13 mm**
+- Very light: **0.09–0.10 mm**
+
+**Rule:** 4–5 weights are enough. More weights usually reduce clarity.
+
+---
+
+## 9. Debugging lineweights (fast diagnosis)
+
+### Symptom A: Everything prints the same weight
+- Objects all on one color
+- OR object overrides ignore ByLayer
+- OR CTB is not applied
+
+Fix:
+- Enforce ByLayer
+- Ensure CTB is selected in Page Setup / Plot dialog
+
+### Symptom B: Output is faint
+- Screening < 100
+- Lineweights too low
+- Plot with lineweights off
+
+Fix:
+- Set screening 100
+- Increase key lineweights
+- Ensure "Plot with lineweights" is ON
+
+### Symptom C: PDF prints in color
+- Plot color not forced to black
+- Using "None" plot style
+
+Fix:
+- Set plot color to black for relevant rows
+- Select proper CTB in Page Setup
+
+---
+
+## 10. Connection back to layers (critical)
+
+CTB assumes your **layer colors** encode hierarchy.
+
+If your layers are random colors, your CTB can't produce predictable drawings.
+
+Next:
+- [Layer Properties Manager (Linework Control)](cad_layer_properties_manager.md)
+- [Page Setup Manager (Step-by-Step)](cad_page_setup_manager.md)

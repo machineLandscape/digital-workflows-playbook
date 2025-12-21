@@ -1,6 +1,8 @@
 # CAD Drafting Techniques
 
-These are optional, step-by-step technical references.
+**Purpose:** Optional, step-by-step technical references linked from drafting workflow guides.  
+**Audience:** Mixed ability  
+**Last updated:** 2025-12-21
 
-Use these when you are stuck on a specific CAD task.
-They are linked from drafting workflow guides but are not required reading.
+These documents are **technique guides** (how to execute a specific task), not workflow guides.
+Use them when you are stuck, or when your output (PDF) is not behaving predictably.

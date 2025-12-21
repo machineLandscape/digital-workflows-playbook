@@ -68,6 +68,11 @@ Fix issues in CAD, not in Adobe.
 
 ---
 
+### If exports look wrong
+- Fix Broken PDF Exports
+
+---
+
 ## 7. Common failures & fixes
 
 **Problem:** Scale is wrong  

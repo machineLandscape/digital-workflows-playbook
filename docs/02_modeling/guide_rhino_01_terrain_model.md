@@ -54,10 +54,11 @@ Common approaches:
 Choose the simplest method that works.
 
 ### If you need step-by-step help
-- Create a terrain surface from contours
-- Patch vs Drape (which to use)
-- Fix spiky or broken terrain surfaces
-- Prepare terrain for sectioning
+- [Create a terrain surface from contours](../02_modeling_techniques/rhino_surface_from_contours.md)
+- [Patch vs Drape (which to use)](../02_modeling_techniques/rhino_patch_vs_drape.md)
+- [Fix spiky or broken terrain surfaces](../02_modeling_techniques/rhino_fix_spiky_surfaces.md)
+- [Prepare terrain for sectioning](../02_modeling_techniques/rhino_prepare_terrain_for_sections.md)
+
 
 ---
 

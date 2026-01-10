@@ -28,6 +28,12 @@ nav:
       - "Build a Terrain Model": 02_modeling/guide_rhino_01_terrain_model.md
       - "Cut Sections & Profiles from a Terrain Model": 02_modeling/guide_rhino_02_sections_profiles.md
 
+- Modeling Techniques:
+  - Surface from Contours: 02_modeling_techniques/rhino_surface_from_contours.md
+  - Patch vs Drape: 02_modeling_techniques/rhino_patch_vs_drape.md
+  - Fix Spiky Surfaces: 02_modeling_techniques/rhino_fix_spiky_surfaces.md
+  - Prepare Terrain for Sections: 02_modeling_techniques/rhino_prepare_terrain_for_sections.md
+
   - Drafting (CAD):
       - "Draft a GIS-Based Context Plan": 03_drafting/guide_cad_02_gis_context_plan.md
       - "Organize Layers for a Site Plan": 03_drafting/guide_cad_03_layers_site_plan.md
